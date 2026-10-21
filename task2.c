@@ -27,7 +27,7 @@ int main(){
         printf("size of struct: %lu\n", sizeof(second));
         printf("address of a: %p\n", (void *) &second.c);
         printf("address of b: %p\n", (void *) &second.b);
-        printf("address of a: %p\n", (void *) &second.a);
+        printf("address of c: %p\n", (void *) &second.a);
 
         return 0;
 }
